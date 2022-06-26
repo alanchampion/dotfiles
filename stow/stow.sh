@@ -10,6 +10,9 @@ stow -vSt ~ git
 # Fish
 mkdir -p ~/.config/fish
 stow -vSt ~/.config/fish fish
+# Oh My Fish
+mkdir -p ~/.config/omf
+stow -vSt ~/.config/omf omf
 # Terminator
 mkdir -p ~/.config/terminator
 stow -vSt ~/.config/terminator terminator
