@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Dockerfile Syntax Highlighting",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"Package Control",
+		"Rust Enhanced",
+		"SideBarEnhancements",
+		"SublimeGit",
+		"Terminus",
+		"TOML",
+	],
+}

@@ -5,6 +5,7 @@ sudo apt install -y apt-transport-https
 
 chmod +x purge-snaps.sh install-*.sh
 ./purge-snaps.sh
+./install-terminal.sh
 ./install-discord.sh
 ./install-mullvad.sh
 ./install-spotify.sh
@@ -14,7 +15,6 @@ sudo apt install -y python3-pip
 sudo apt install -y neovim
 sudo apt install -y steam
 sudo apt install -y godot3
-sudo apt install -y terminator
 sudo apt install -y torbrowser-launcher
 sudo apt install -y firefox
 
