@@ -2,6 +2,7 @@
 
 sudo apt update
 sudo apt install -y apt-transport-https
+sudo apt install stow
 
 chmod +x purge-snaps.sh install-*.sh
 ./purge-snaps.sh
