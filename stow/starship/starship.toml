@@ -1,0 +1,31 @@
+[username]
+disabled = false
+style_user = "white bold"
+style_root = "black bold"
+format = "[$user]($style):"
+show_always = true
+
+[sudo]
+disabled = false
+
+[status]
+disabled = false
+# style = "bg:blue"
+symbol = "🔴"
+format = '[\[$symbol $status\]]($style) '
+# map_symbol = true
+
+[time]
+disabled = true
+format = '[\[ $time \]]($style) '
+time_format = "%T"
+utc_time_offset = "-6"
+time_range = "10:00:00-14:00:00"
+
+[shell]
+fish_indicator = ""
+bash_indicator = "_"
+unknown_indicator = ""
+style = "cyan bold"
+disabled = false
+

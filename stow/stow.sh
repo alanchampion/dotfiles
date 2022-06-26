@@ -1,15 +1,20 @@
 #!/bin/bash
 
 echo 'Removing default configurations'
-rm ~/.config/fish/config.fish
+rm ~/.config/fish/config.fish ~/.config/terminator/config ~/.vim_runtime/my_configs.vim ~/.config/nvim/init.vim
+rm -rf ~/.config/sublime-text/Packages
 
 echo 'Stowing for fish, sublime, firefox, neovim'
+# Git
+stow -vSt ~ git
 # Fish
 mkdir -p ~/.config/fish
 stow -vSt ~/.config/fish fish
 # Terminator
 mkdir -p ~/.config/terminator
 stow -vSt ~/.config/terminator terminator
+# Starship
+stow -vSt ~/.config starship
 # Vim
 mkdir -p ~/.vim_runtime
 stow -vSt ~/.vim_runtime vim

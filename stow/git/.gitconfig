@@ -1,0 +1,7 @@
+[user]
+	email = alanchampion@protonmail.com
+	name = Alan Champion
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
