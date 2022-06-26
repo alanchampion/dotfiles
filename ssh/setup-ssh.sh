@@ -1,19 +1,19 @@
 echo "What's your email for github?"
 read email
-echo "What password do you want to use for github?"
-stty_orig=$(stty -g) # save original terminal setting.
-stty -echo           # turn-off echoing.
-IFS= read -r password1  # read the password
-echo "Retype password."
-IFS= read -r password2  # read the password
-stty "$stty_orig"    # restore terminal setting.
+# echo "What password do you want to use for github?"
+# stty_orig=$(stty -g) # save original terminal setting.
+# stty -echo           # turn-off echoing.
+# IFS= read -r password1  # read the password
+# echo "Retype password."
+# IFS= read -r password2  # read the password
+# stty "$stty_orig"    # restore terminal setting.
 
-if [ $password1 != $password2 ]; then
-    echo "Passwords do not match. Exiting"
-    exit 1
-fi
+# if [ $password1 != $password2 ]; then
+#     echo "Passwords do not match. Exiting"
+#     exit 1
+# fi
 
-ssh-keygen -t ed25519 -N "${password1}" -C "${email}" -f ~/.ssh/github_ed25519
+ssh-keygen -t ed25519 -C "${email}" -f ~/.ssh/github_ed25519
 
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/github_ed25519

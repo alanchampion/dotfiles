@@ -22,11 +22,6 @@ then
 
     # Remove snapd
     echo "Removing snapd"
-    sudo apt autoremove --purge snwget -O- https://example.com/EXAMPLE.gpg |\
-        gpg --dearmor -o /usr/share/keyrings/EXAMPLE.gpg
-
-    echo "deb [signed-by=/usr/share/keyrings/EXAMPLE.gpg] https://example.com/apt stable main" |\
-        sudo tee /etc/apt/sources.list.d/EXAMPLE.listapd
     sudo rm -rf ~/snap /snap /var/snap /var/lib/snapd /var/cache/snapd
     echo "Snapd removed"
 

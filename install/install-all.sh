@@ -13,7 +13,6 @@ chmod +x purge-snaps.sh install-*.sh
 ./install-sublime.sh
 
 sudo apt install -y python3-pip
-sudo apt install -y neovim
 sudo apt install -y steam
 sudo apt install -y godot3
 sudo apt install -y torbrowser-launcher
