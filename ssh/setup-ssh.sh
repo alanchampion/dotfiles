@@ -8,12 +8,12 @@ echo "Retype password."
 IFS= read -r password2  # read the password
 stty "$stty_orig"    # restore terminal setting.
 
-if [ password1 != password2 ]; then
+if [ $password1 != $password2 ]; then
     echo "Passwords do not match. Exiting"
     exit 1
 fi
 
-ssh-keygen -t ed25519 -N "${password}" -C "${email}" -f ~/.ssh/github_ed25519
+ssh-keygen -t ed25519 -N "${password1}" -C "${email}" -f ~/.ssh/github_ed25519
 
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/github_ed25519

@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Snap removal thanks to https://dr-knz.net/ubuntu-without-snap.html
-if [ snap version ];
+dpkg -s snapd &> /dev/null
+if [ $? -eq 0 ]
 then
     # Remove installed snaps
     echo "Removing snaps"

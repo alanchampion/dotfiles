@@ -12,6 +12,6 @@ curl -sS https://starship.rs/install.sh | sh
 # Vim Configs
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
-sudo apt install neovim
+sudo apt install -y neovim
 
 chsh -s $(which fish)
