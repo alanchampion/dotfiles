@@ -8,10 +8,10 @@ Instruction taken from [here](https://gruby.medium.com/dotfile-how-to-manage-and
 
 To set up github, copy and run the `ssh/setup-ssh.sh` file. That should clone this repo and from there you can run the install scripts and stowed dotfiles. 
 
-For installations, run files in `install` with `chmod +x install-all.sh && ./install-all.sh`. 
+For installations, run files in `install` with `./install-all.sh`. 
 
-For stowed dotfiles, install stow `sudo apt install stow`. 
-Then navigate to the `stow` directory and run `chmod +x stow.sh && ./stow.sh`. 
+For stowed dotfiles, ensure stow is installed `sudo apt install stow`. 
+Then navigate to the `stow` directory and run `./stow.sh`. 
 
 ## Adding New Configuration
 

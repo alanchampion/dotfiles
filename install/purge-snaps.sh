@@ -44,7 +44,7 @@ EOF
     echo "nosnap.pref written"
 
     # Instructions from https://ubuntuhandbook.org/index.php/2022/04/install-firefox-deb-ubuntu-22-04/
-    sudo add-apt-repository ppa:mozillateam/ppa
+    sudo add-apt-repository -y ppa:mozillateam/ppa
     cat <<EOF | sudo tee /etc/apt/preferences.d/mozillateamppa
 Package: firefox*
 Pin: release o=LP-PPA-mozillateam

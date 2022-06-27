@@ -21,7 +21,6 @@ sudo apt upgrade
 sudo apt autoremove
 
 # TODO
-# Pull down my config files
 # Add PATH=$PATH:$HOME/.local/bin to .bashrc
 # https://github.com/Prayag2/konsave
 # 	Mouse to flat (maybe, test first)
