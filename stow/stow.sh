@@ -29,7 +29,7 @@ stow -vSt ~/.config/nvim neovim
 mkdir -p ~/.config/sublime-text
 stow -vSt ~/.config/sublime-text sublime
 # Firefox user chrome
-if [[ ! -f "~/.mozilla" ]]; then
+if [[ ! -d ~/.mozilla ]]; then
     echo "Running firefox and sleeping for 15 seconds to get files ready."
     firefox &
     sleep 15
