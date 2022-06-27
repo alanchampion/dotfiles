@@ -7,6 +7,7 @@ cd ~/Downloads
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > omf-install.fish
 sudo chmod +x omf-install.fish
 fish ~/Downloads/omf-install.fish --noninteractive --yes
+echo "omf install bang-bang" | fish
 # Hack Font
 wget -O "Hack Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
 mkdir -p ~/.fonts
@@ -23,4 +24,4 @@ sudo apt install -y neovim
 
 cd -
 
-sudo chsh -s $(which fish)
+chsh -s $(which fish)

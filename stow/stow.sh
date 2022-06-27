@@ -2,7 +2,7 @@
 
 echo 'Removing default configurations'
 rm ~/.config/fish/config.fish ~/.config/terminator/config ~/.vim_runtime/my_configs.vim ~/.config/nvim/init.vim
-rm ~/.config/omf
+rm -rf ~/.config/omf
 rm -rf ~/.config/sublime-text/Packages
 
 echo 'Stowing for fish, sublime, firefox, neovim'
