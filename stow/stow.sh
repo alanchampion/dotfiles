@@ -29,6 +29,12 @@ stow -vSt ~/.config/nvim neovim
 mkdir -p ~/.config/sublime-text
 stow -vSt ~/.config/sublime-text sublime
 # Firefox user chrome
+if [[ ! -f "~/.mozilla" ]]; then
+    echo "Running firefox and sleeping for 15 seconds to get files ready."
+    firefox &
+    sleep 15
+    kill $!
+fi
 ffolder=$(ls -d ~/.mozilla/firefox/*.default-release)
 mkdir -p ${ffolder}/chrome
 stow -vSt ${ffolder}/chrome firefox
