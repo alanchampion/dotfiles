@@ -1,8 +1,7 @@
 #!/bin/bash
 
-sudo apt install -y terminator
-sudo apt install -y fish
-sudo apt install -y curl
+sudo apt install -y terminator fish curl
+
 cd ~/Downloads
 # Oh My Fish
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > omf-install.fish
