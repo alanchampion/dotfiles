@@ -9,6 +9,12 @@ then
     for p in $(snap list | awk '{print $1}'); do
       sudo snap remove $p
     done
+    for p in $(snap list | awk '{print $1}'); do
+      sudo snap remove $p
+    done
+    for p in $(snap list | awk '{print $1}'); do
+      sudo snap remove $p
+    done
     echo "Snaps removed"
 
     # Clean up the core package
