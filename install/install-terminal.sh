@@ -2,6 +2,7 @@
 
 sudo apt install -y terminator
 sudo apt install -y fish
+sudo apt install -y curl
 # Oh My Fish
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 # Hack Font
@@ -12,11 +13,7 @@ cp "Hack Nerd Font Complete.ttf" ~/.fonts
 fc-cache -fv
 cd -
 # Starship
-echo "Starting to install starship"
-read starship
 curl -sS https://starship.rs/install.sh | sudo sh
-echo "Finished starship"
-read starship
 # Vim Configs
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
