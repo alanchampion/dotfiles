@@ -28,6 +28,7 @@ then
 
     # Remove snapd
     echo "Removing snapd"
+    sudo apt autoremove --purge snapd
     sudo rm -rf ~/snap /snap /var/snap /var/lib/snapd /var/cache/snapd
     echo "Snapd removed"
 

@@ -6,6 +6,7 @@ sudo apt install -y apt-transport-https stow
 chmod +x purge-snaps.sh install-*.sh
 sh purge-snaps.sh
 sh install-terminal.sh
+wait 5
 sh install-discord.sh
 sh install-mullvad.sh
 sh install-spotify.sh
