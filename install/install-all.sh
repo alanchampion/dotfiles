@@ -1,18 +1,20 @@
 #!/bin/bash
 
-sudo apt update
-sudo apt install -y apt-transport-https stow
+sudo apt update &
+wait
+sudo apt install -y apt-transport-https stow &
+wait
 
-chmod +x purge-snaps.sh install-*.sh
-sh purge-snaps.sh
-sh install-terminal.sh
-wait 5
-sh install-discord.sh
-sh install-mullvad.sh
-sh install-spotify.sh
-sh install-sublime.sh
+./purge-snaps.sh &
+wait
+./install-terminal.sh &
+wait
+./install-discord.sh
+./install-mullvad.sh
+./install-spotify.sh
+./install-sublime.sh
 
-sudo apt install -y python3-pip steam godot3 torbrowser-launcher firefox
+sudo apt install -y python3-pip flameshot steam godot3 torbrowser-launcher firefox
 
 sudo apt upgrade
 sudo apt autoremove
