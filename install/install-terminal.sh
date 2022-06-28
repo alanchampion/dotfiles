@@ -3,6 +3,7 @@
 sudo apt install -y terminator fish curl
 
 cd ~/Downloads
+
 # Oh My Fish
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > omf-install.fish
 sudo chmod +x omf-install.fish
@@ -17,6 +18,9 @@ fc-cache -fv
 curl -sS https://starship.rs/install.sh > starship-install.sh
 sudo chmod +x starship-install.sh
 sh ~/Downloads/starship-install.sh -y
+# Keyboard Bindings
+echo "keymaps 0-127\nkeycode 58 = Escape\n" > caps-to-escape.kmap
+sudo loadkeys caps-to-escape.kmap
 # Vim Configs
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
