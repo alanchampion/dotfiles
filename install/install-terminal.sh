@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install -y terminator fish curl
+sudo apt-get install -y terminator fish curl
 
 cd ~/Downloads
 
@@ -24,7 +24,7 @@ sudo loadkeys caps-to-escape.kmap
 # Vim Configs
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
-sudo apt install -y neovim
+sudo apt-get install -y neovim
 
 cd -
 
