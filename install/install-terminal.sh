@@ -28,4 +28,5 @@ sudo apt-get install -y neovim
 
 cd -
 
+echo "Changing shell to fish. Need user password."
 chsh -s $(which fish)
