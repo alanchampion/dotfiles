@@ -1,12 +1,18 @@
+[KFileDialog Settings]
+Recent Files[$e]=Octopus.png,file:$HOME/Pictures/Octopus.png
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/Downloads/
+detailViewIconSize=16
+
 [MainWindow]
 MenuBar=Disabled
-RestorePositionForNextInstance=false
 State=AAAA/wAAAAD9AAAAAAAAA/wAAAKfAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Virtual1 Height 1600x789=671
 Virtual1 Width 1600x789=1020
 Virtual1 XPosition 1600x789=290
+Virtual1 XPosition 1600x829=290
 Virtual1 YPosition 1600x789=74
+Virtual1 YPosition 1600x829=114
 
 [Open-with settings]
 CompletionMode=1

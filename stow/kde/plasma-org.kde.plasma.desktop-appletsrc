@@ -26,7 +26,7 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=399
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1024x768.jpg
+Image=/home/alan/Pictures/Octopus.png
 
 [Containments][2]
 activityId=
@@ -97,7 +97,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=84
+PreloadWeight=94
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -138,7 +138,7 @@ immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][8][Applets][12][Configuration]
-PreloadWeight=34
+PreloadWeight=44
 
 [Containments][8][Applets][13]
 immutability=1
@@ -204,7 +204,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=42
+PreloadWeight=26
 
 [Containments][8][Applets][25]
 immutability=1
@@ -232,7 +232,7 @@ DialogWidth=791
 PreloadWeight=34
 
 [Containments][8][General]
-extraItems=org.kde.plasma.vault,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.kupapplet,org.kde.plasma.nightcolorcontrol,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,Discover Notifier_org.kde.DiscoverNotifier,org.kde.kscreen,org.kde.plasma.networkmanagement
+extraItems=org.kde.plasma.vault,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.kupapplet,org.kde.plasma.nightcolorcontrol,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.plasma.networkmanagement
 knownItems=org.kde.plasma.vault,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.kupapplet,org.kde.plasma.nightcolorcontrol,org.kde.plasma.battery,org.kde.kdeconnect,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller
 shownItems=org.kde.plasma.volume,org.kde.plasma.battery
 
