@@ -5,7 +5,7 @@ rm ~/.config/fish/config.fish ~/.config/terminator/config ~/.vim_runtime/my_conf
 rm -rf ~/.config/omf
 rm -rf ~/.config/sublime-text/Packages
 
-echo 'Stowing for fish, sublime, firefox, neovim'
+echo 'Stowing for fish, sublime, firefox, neovim, etc.'
 # Git
 stow -vSt ~ git
 # SSH
@@ -43,6 +43,7 @@ mkdir -p ${ffolder}/chrome
 stow -vSt ${ffolder}/chrome firefox
 # KDE
 if [ $XDG_CURRENT_DESKTOP == "KDE" ]; then
+    stow -vSt ~/Pictures images
     kde_files=$(ls kde)
     cd ~/.config
     rm -rf $kde_files

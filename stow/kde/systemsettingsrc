@@ -1,6 +1,6 @@
 [KFileDialog Settings]
-Recent Files[$e]=Octopus.png,file:$HOME/Pictures/Octopus.png
-Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/Downloads/
+Recent Files[$e]=Octopus.png,file:$HOME/Pictures/PennyProfile.png,file:$HOME/Pictures/Octopus.png
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/Downloads/,file:$HOME/Documents/
 detailViewIconSize=16
 
 [MainWindow]
@@ -16,4 +16,7 @@ Virtual1 YPosition 1600x829=114
 
 [Open-with settings]
 CompletionMode=1
-History=Termi
+History=flame,mu,Termi
+
+[UiSettings]
+ColorScheme=Default
